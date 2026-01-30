@@ -2,6 +2,9 @@
 
 A simple web app for viewing Nmap scan results and tracking vulnerabilities.
 
+<img width="1228" height="1021" alt="image" src="https://github.com/user-attachments/assets/3e7912a4-cd5f-40de-8cd5-a4b9bdd09af7" />
+
+
 ## What does it do?
 
 - **Upload Nmap scans** - Drag and drop your `.xml` or `.gnmap` scan files
