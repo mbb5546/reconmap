@@ -46,14 +46,19 @@ npm install
 
 ### Step 4: Run the app
 
+**Option A - Development mode** (quick start, good for personal use):
 ```bash
 npm run dev
 ```
 
-You'll see something like:
+**Option B - Production mode** (optimized, recommended):
+```bash
+npm run build
+npm run preview
 ```
-  VITE v6.x.x  ready in 500ms
 
+Either way, you'll see something like:
+```
   ➜  Local:   http://localhost:5173/
 ```
 
