@@ -1,0 +1,27 @@
+@import 'tailwindcss';
+
+/* Base styles */
+html {
+  @apply antialiased;
+}
+
+body {
+  @apply min-h-screen;
+}
+
+/* Scrollbar styling for dark mode */
+.dark ::-webkit-scrollbar {
+  @apply w-2 h-2;
+}
+
+.dark ::-webkit-scrollbar-track {
+  @apply bg-gray-800;
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  @apply bg-gray-600 rounded;
+}
+
+.dark ::-webkit-scrollbar-thumb:hover {
+  @apply bg-gray-500;
+}
